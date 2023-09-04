@@ -12,6 +12,7 @@ import java.util.Scanner;
 
             System.out.println("Coloque um numero");
             primeiroOperando = leitor.nextDouble();
+            System.out.println("Coloque um segundo numero");
             segundoOperando = leitor.nextDouble();
 
             //processamento 
