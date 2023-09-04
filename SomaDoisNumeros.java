@@ -14,10 +14,12 @@ import java.util.Scanner;
             primeiroOperando = leitor.nextDouble();
             System.out.println("Coloque um segundo numero");
             segundoOperando = leitor.nextDouble();
-
+            
             //processamento 
+            
             resultado = primeiroOperando + segundoOperando;
 
             //saída
+            System.out.print(resultado); 
         } 
     } 
