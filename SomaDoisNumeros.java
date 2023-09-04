@@ -16,6 +16,8 @@ import java.util.Scanner;
             segundoOperando = leitor.nextDouble();
 
             //processamento 
+            resultado = primeiroOperando + segundoOperando;
+
             //saída
         } 
     } 
