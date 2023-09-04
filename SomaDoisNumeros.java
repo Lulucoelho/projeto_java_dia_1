@@ -10,6 +10,10 @@ import java.util.Scanner;
 
             //entrada
 
+            System.out.println("Coloque um numero");
+            primeiroOperando = leitor.nextDouble();
+            segundoOperando = leitor.nextDouble();
+
             //processamento 
             //saída
         } 
