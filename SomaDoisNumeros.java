@@ -1,25 +1,23 @@
-import java.util.Scanner; 
+import javax.swing.JOptionPane;
 //pacote padrão: java.lang: importador automatico    
     public class SomaDoisNumeros{
         public static void main(String [] args){
             //declaração de variável
-            Scanner leitor = new Scanner(System.in); 
+
             double primeiroOperando;
             double segundoOperando; 
             double resultado; 
 
             //entrada
+            primeiroOperando = Double.parseDouble(JOptionPane.showInputDialog("Digite o primeiro operando"));
 
-            System.out.println("Coloque um numero");
-            primeiroOperando = leitor.nextDouble();
-            System.out.println("Coloque um segundo numero");
-            segundoOperando = leitor.nextDouble();
-            
+            segundoOperando = Double.parseDouble(JOptionPane.showInputDialog("Digite o segundo operando"));
+
             //processamento 
             
             resultado = primeiroOperando + segundoOperando;
 
             //saída
-            System.out.print(resultado); 
+            JOptionPane.showMessageDialog(null, resultado);
         } 
     } 
